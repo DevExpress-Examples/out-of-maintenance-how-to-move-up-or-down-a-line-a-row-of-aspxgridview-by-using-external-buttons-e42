@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Threading;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
     private DataTable table;

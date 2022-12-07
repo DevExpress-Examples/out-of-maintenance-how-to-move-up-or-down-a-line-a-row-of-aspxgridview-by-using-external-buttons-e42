@@ -2,7 +2,7 @@
 Imports System
 Imports System.Data
 Imports System.Threading
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
