@@ -36,12 +36,8 @@
                         KeyFieldName="ID" OnCustomCallback="gv_CustomCallback">
                         <ClientSideEvents EndCallback="gv_EndCallback" />
                         <Columns>
-                            <dx:GridViewDataTextColumn FieldName="ID" ReadOnly="True"
-                                VisibleIndex="1" SortOrder="Ascending">
-                                <EditFormSettings Visible="False" />
-                            </dx:GridViewDataTextColumn>
-                            <dx:GridViewDataTextColumn FieldName="Item" VisibleIndex="2">
-                            </dx:GridViewDataTextColumn>
+                            <dx:GridViewDataTextColumn FieldName="ID" ReadOnly="True" SortOrder="Ascending" />
+                            <dx:GridViewDataTextColumn FieldName="Item" />
                         </Columns>
                         <SettingsBehavior AllowFocusedRow="True" />
                     </dx:ASPxGridView>
